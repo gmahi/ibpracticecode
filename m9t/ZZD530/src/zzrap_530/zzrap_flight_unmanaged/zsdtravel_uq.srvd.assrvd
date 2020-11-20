@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition Custom enity'
+define service ZSDTRAVEL_UQ {
+  expose ZI_TRAVEL_UQ;
+}

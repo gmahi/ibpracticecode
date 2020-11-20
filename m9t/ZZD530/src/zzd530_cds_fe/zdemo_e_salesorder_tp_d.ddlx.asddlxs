@@ -1,0 +1,39 @@
+@Metadata.layer: #CUSTOMER
+
+@UI: {
+    headerInfo: {
+    typeName: 'Sales Order',
+    typeNamePlural: 'Sales Orders',
+    title: { type: #STANDARD, value: 'SalesOrder' }
+    }
+}
+
+annotate view ZDEMO_C_SalesOrder_TP_D with
+{
+  @UI.hidden: true
+  SalesOrderUUID;
+
+  @UI: {
+  lineItem: [ { position: 10, label: 'Sales Order ID', importance: #HIGH },
+  { type: #FOR_ACTION, dataAction: 'BOPF:SET_TO_PAID', label: 'Set to Paid', position: 1  }
+
+   ],
+
+  selectionField: [ { position: 10 } ],
+  identification:[ { position: 10, label: 'Sales Order ID' } ]
+  }
+  SalesOrder;
+
+  @UI: {
+  lineItem: [ { position: 20,label: 'Customer', importance: #MEDIUM } ],
+  identification: [{ position: 20, label: 'Customer' }]
+  }
+  BusinessPartner;
+
+  @UI: {
+  lineItem: [ { position: 30, label: 'Status', importance: #MEDIUM } ],
+  identification:[ { position: 30, label: 'Status' } ],
+  selectionField: [ { position: 30} ]
+  }
+  OverallStatus;
+}

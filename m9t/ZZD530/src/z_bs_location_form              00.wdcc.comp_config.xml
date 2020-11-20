@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB_GL2" ConfId="Z_BS_LOCATION_FORM" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>ZCL_BS_GUIBB_FORM_SITE</FEEDER>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FPM_REFRESH</ID>
+       <EVENT_ID>FPM_REFRESH</EVENT_ID>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">ACC749035FB718DBDFA3FFAA27EC55</ID>
+       <EVENT_ID>ACC749035FB718DBDFA3FFAA27EC55</EVENT_ID>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">A97434A408CF80E25CD8B855BB59BD</ID>
+       <EVENT_ID>A97434A408CF80E25CD8B855BB59BD</EVENT_ID>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">A07131A51C36C21C628074F7D5D102</ID>
+       <EVENT_ID>A07131A51C36C21C628074F7D5D102</EVENT_ID>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">A93A8DCFBF88B063FE365DD7AEE95F</ID>
+       <EVENT_ID>A93A8DCFBF88B063FE365DD7AEE95F</EVENT_ID>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">MDG_CHANGE_DOCS</ID>
+       <EVENT_ID>MDG_CHANGE_DOCS</EVENT_ID>
+      </Item>
+     </Node>
+     <Node Name="BUTTON" SimpleFormat="true"/>
+     <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="DROP_TARGET" SimpleFormat="true"/>
+     <Node Name="FORM_GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FPM_BOL_FORM_GROUP</ID>
+       <Node Name="FORM_GROUP_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_CITY</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_CITY</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_COUNTRY</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_COUNTRY</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_DESCR</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_DESCR</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_NAME</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_NAME</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000005" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_SECTION_HEADER_</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_SECTION_HEADER_</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000006" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_SITE</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_SITE</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000007" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_STREET</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_STREET</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000008" SimpleFormat="true">
+         <ID Final="5 ">ELEMENT_ZIP</ID>
+         <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>ELEMENT_ZIP</FORM_ELEMENT_ID>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">COMPONENT_NAME</NAME>
+       <VALUE>ZSP_ZK</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">OBJECT_NAME</NAME>
+       <VALUE>SITE</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">EDIT_MODE</NAME>
+       <VALUE>X</VALUE>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME Final="5 ">JOINED_OBJECTS</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_DEFAULT_VISIBILITY</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_ENTRIES</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <NAME Final="5 ">READ_MODE_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <NAME Final="5 ">EVENT_EXCLUSION_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="POSITION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_SECTION_HEADER_</ID>
+       <START_ROW>1</START_ROW>
+       <START_COLUMN>A</START_COLUMN>
+       <END_ROW>1</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_SECTION_HEADER_</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_SITE</ID>
+       <START_ROW>2</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>2</END_ROW>
+       <END_COLUMN>H</END_COLUMN>
+       <LABEL_START_ROW>2</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>2</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_SITE</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_CITY</ID>
+       <START_ROW>2</START_ROW>
+       <START_COLUMN>L</START_COLUMN>
+       <END_ROW>2</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <LABEL_START_ROW>2</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>2</LABEL_END_ROW>
+       <LABEL_END_COLUMN>K</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_CITY</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_COUNTRY</ID>
+       <START_ROW>3</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>3</END_ROW>
+       <END_COLUMN>H</END_COLUMN>
+       <LABEL_START_ROW>3</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>3</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_COUNTRY</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_DESCR</ID>
+       <START_ROW>3</START_ROW>
+       <START_COLUMN>L</START_COLUMN>
+       <END_ROW>3</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <LABEL_START_ROW>3</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>3</LABEL_END_ROW>
+       <LABEL_END_COLUMN>K</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_DESCR</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_NAME</ID>
+       <START_ROW>4</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>4</END_ROW>
+       <END_COLUMN>H</END_COLUMN>
+       <LABEL_START_ROW>4</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>4</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_NAME</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_STREET</ID>
+       <START_ROW>4</START_ROW>
+       <START_COLUMN>L</START_COLUMN>
+       <END_ROW>4</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <LABEL_START_ROW>4</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>4</LABEL_END_ROW>
+       <LABEL_END_COLUMN>K</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_STREET</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">SEELEMENT_ZIP</ID>
+       <START_ROW>5</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>5</END_ROW>
+       <END_COLUMN>H</END_COLUMN>
+       <LABEL_START_ROW>5</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>5</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>ELEMENT_ZIP</FORM_ELEMENT_ID>
+      </Item>
+     </Node>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+     <Node Name="STANDARD_ELEMENT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_SECTION_HEADER_</ID>
+       <TYPE>SH</TYPE>
+       <TEXT Transl="true">1</TEXT>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;00&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;0&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;0&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;0&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;00&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;00&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;00&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;00&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION/&gt;&lt;ACTION_ID_ON_CHANGE/&gt;&lt;ACTION_ID_ON_DELETE/&gt;&lt;ACTION_ID_ON_EDIT/&gt;&lt;ACTION_ID_ON_ENTER/&gt;&lt;ACTION_ID_ON_RATE/&gt;&lt;ACTION_ID_ON_SELECT/&gt;&lt;ACTION_ID_ON_TOGGLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>01</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_SITE</ID>
+       <NAME>SITE</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_CITY</ID>
+       <NAME>CITY</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_COUNTRY</ID>
+       <NAME>COUNTRY</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_DESCR</ID>
+       <NAME>DESCR</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_NAME</ID>
+       <NAME>NAME</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_STREET</ID>
+       <NAME>STREET</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ZIP</ID>
+       <NAME>ZIP</NAME>
+       <TYPE>IN</TYPE>
+       <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_MENU_ID/&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;DDIC_SHLP_TEXT_FIELD_NAME/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;ELEM_DDIC_SHLP_NAME/&gt;&lt;ENFORCE_FIELD_MERGING/&gt;&lt;HEIGHT/&gt;&lt;HIDE_FORMATTING_OPTIONS/&gt;&lt;HIDE_TEXT/&gt;&lt;HIDE_VALUE/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;INPUT_HELP&gt;00&lt;/INPUT_HELP&gt;&lt;KEEP_ORIGINAL_SIZE/&gt;&lt;KEY_VISIBLE/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;MIME_TYPE/&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;PASSWORD_FIELD/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;SECTION_HEADER_DESIGN/&gt;&lt;SECTION_HEADER_LEVEL&gt;00&lt;/SECTION_HEADER_LEVEL&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_HISTORY/&gt;&lt;SUGGEST_VALUES/&gt;&lt;SUPPRESS_FIELD_MERGING/&gt;&lt;TARGET/&gt;&lt;TEXT_DOCUMENT_NAME/&gt;&lt;TEXT_EDIT_DESIGN&gt;09&lt;/TEXT_EDIT_DESIGN&gt;&lt;TEXT_EDIT_HEIGHT_MODE&gt;00&lt;/TEXT_EDIT_HEIGHT_MODE&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;THRESHOLDS/&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;TOKEN_FORMAT&gt;00&lt;/TOKEN_FORMAT&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;WIDTH/&gt;&lt;WRAPPING/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+       <SPECIAL_ACTIONS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ACTION_ID_ON_ACTION&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ACTION&gt;&lt;ACTION_ID_ON_CHANGE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_CHANGE&gt;&lt;ACTION_ID_ON_DELETE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_DELETE&gt;&lt;ACTION_ID_ON_EDIT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_EDIT&gt;&lt;ACTION_ID_ON_ENTER&gt;FPM_REFRESH&lt;/ACTION_ID_ON_ENTER&gt;&lt;ACTION_ID_ON_RATE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_RATE&gt;&lt;ACTION_ID_ON_SELECT&gt;FPM_REFRESH&lt;/ACTION_ID_ON_SELECT&gt;&lt;ACTION_ID_ON_TOGGLE&gt;FPM_REFRESH&lt;/ACTION_ID_ON_TOGGLE&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_ACTIONS>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

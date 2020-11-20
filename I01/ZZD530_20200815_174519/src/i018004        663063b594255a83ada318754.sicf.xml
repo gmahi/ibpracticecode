@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/I018004/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>I018004</ICF_NAME>
+    <ORIG_NAME>I018004</ORIG_NAME>
+    <ICFALTNME>ZZD530_APPLI_BILLING_DOCUMENT</ICFALTNME>
+    <ICFALTNME_ORIG>ZZD530_APPLI_BIllING_DOCUMENT</ICFALTNME_ORIG>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>I018004</ICF_NAME>
+    <ICF_LANGU>E</ICF_LANGU>
+    <ICF_DOCU>Apllication for billing documents</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

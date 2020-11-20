@@ -1,0 +1,15 @@
+CLASS zcl_sflight_container DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  DATA: GS_flight TYPE sflight.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_sflight_container IMPLEMENTATION.
+ENDCLASS.

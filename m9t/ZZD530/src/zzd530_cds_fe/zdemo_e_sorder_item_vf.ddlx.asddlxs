@@ -1,0 +1,65 @@
+@Metadata.layer: #CUSTOMER
+
+@UI:{
+ headerInfo: {
+ typeName: 'Sales Order',
+ typeImageUrl: 'Sales Orders',
+ title: { type: #STANDARD, value: 'SalesOrder' }
+ }
+}
+
+annotate view ZDEMO_C_SOrderItem_VF with
+{
+
+  @UI:{
+  lineItem: [{position: 10, label: 'Sales Oder ID' , importance: #HIGH}],
+  selectionField: [{position: 10 }],
+  identification: [{position: 10 , label: 'Sales Oder ID'} ]
+  }
+  SalesOrder;
+
+  @UI:{
+   lineItem: [{position: 20, label: 'Product' , importance: #MEDIUM}],
+   selectionField: [{position: 20 }],
+   identification: [{position: 20 , label: 'Product'} ]
+  }
+  Product;
+  @UI:{
+   lineItem: [{position: 30, label: 'Position' , importance: #MEDIUM}],
+   identification: [{position: 30 , label: 'Position'} ]
+  }
+  ItemPosition;
+
+  @UI:{
+  lineItem: [{position: 40, label: 'Transaction Currency' , importance: #LOW}],
+  identification: [{position: 40 , label: 'Transaction Currency'} ]
+  }
+  TransactionCurrency;
+
+  @UI:{
+   lineItem: [{position: 50, label: 'Gross Amount' , importance: #MEDIUM}],
+   identification: [{position: 50 , label: 'Gross Amount'} ]
+  }
+  GrossAmount;
+  @UI:{
+  lineItem: [{position: 60, label: 'Gross Amount With Discount' , importance: #MEDIUM}],
+  selectionField: [{position: 30 }],
+  identification: [{position: 60 , label: 'Gross Amount With Discount'} ]
+  }
+  GrossAmountWithDiscount;
+
+  @UI:{
+  lineItem: [{position: 70, label: 'Target Currency' , importance: #MEDIUM}],
+  identification: [{position: 70 , label: 'Target Currency'} ]
+  }
+  TargetCurrency;
+
+  @UI:{
+  lineItem: [{position: 80, label: 'Converted Gross Amount' , importance: #MEDIUM}],
+  identification: [{position: 80 , label: 'Converted Gross Amount'} ]
+  }
+  ConvertedGrossAmount;
+
+
+
+}

@@ -1,0 +1,5 @@
+@EndUserText.label: 'CRUD: E2E:SD for managing TRAVELS'
+define service ZSD_TRAVEL_U_STAD {
+  expose /DMO/I_Travel_U;
+  expose /DMO/I_Booking_U;
+}

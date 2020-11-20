@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/I0180014/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>I0180014</ICF_NAME>
+    <ORIG_NAME>I0180014</ORIG_NAME>
+    <ICFALTNME>ZZD530_NET310_U4_UI2</ICFALTNME>
+    <ICFALTNME_ORIG>ZZD530_NET310_U4_UI2</ICFALTNME_ORIG>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>I0180014</ICF_NAME>
+    <ICF_LANGU>E</ICF_LANGU>
+    <ICF_DOCU>Web Dynpro Application ZZD530_NET310_U4_UI2 / Component ZZD530_NET310_U4_UI2</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SMTG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SMTG>
+    <HEADER>
+     <ID>ZEMAIL_TEMPLATE_DEMO</ID>
+     <VERSION>A</VERSION>
+     <CDS_VIEW>ZCDS_INVOICE_DATA</CDS_VIEW>
+     <IS_PREDELIVERED>X</IS_PREDELIVERED>
+    </HEADER>
+    <HEADER_T>
+     <SMTG_TMPL_HDR_T>
+      <ID>ZEMAIL_TEMPLATE_DEMO</ID>
+      <VERSION>A</VERSION>
+      <LANGU>E</LANGU>
+      <NAME>Demo Email template</NAME>
+      <DESCRIPTION>Demo Email template</DESCRIPTION>
+     </SMTG_TMPL_HDR_T>
+    </HEADER_T>
+    <CONTENT>
+     <SMTG_TMPL_CONT>
+      <ID>ZEMAIL_TEMPLATE_DEMO</ID>
+      <VERSION>A</VERSION>
+      <LANGU>E</LANGU>
+      <SUBJECT>Renew Subsciption {{vbeln}}</SUBJECT>
+      <BODY_TXT>EMAIl Template
+Please renew you subcription {{vbeln}} which expires on {{fkdat}}</BODY_TXT>
+      <BODY_HTML>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta name=&quot;generator&quot; content=&quot;HTML Tidy for HTML5 for ABAP version 5.6.0&quot;&gt;
+  &lt;title&gt;EMAIl Template &lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Please renew you subcription {{vbeln}} which expires on {{fkdat}}
+&lt;/body&gt;
+&lt;/html&gt;
+</BODY_HTML>
+      <AUTOGEN_TXT>X</AUTOGEN_TXT>
+     </SMTG_TMPL_CONT>
+    </CONTENT>
+   </SMTG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

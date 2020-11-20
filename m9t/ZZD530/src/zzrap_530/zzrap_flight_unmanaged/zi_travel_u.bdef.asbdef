@@ -1,0 +1,37 @@
+implementation unmanaged;
+
+define behavior for ZI_TRAVEL_U alias travel
+implementation in class zbp_i_travel_u unique
+//alias <alias_name>
+//late numbering
+//lock master
+//authorization master
+etag LastChangedAt
+{
+
+  field ( readonly ) TravelID;
+  field ( mandatory ) AgencyID, CustomerID, BeginDate, EndDate;
+  create;
+  update;
+  delete;
+  action set_status_booked result [1] $self;
+  association _Booking { create; }
+
+}
+
+// behavior defintion for the BOOKING sub node
+
+define behavior for ZI_BOOKING_U alias booking
+implementation in class ZCL_BP_BOOKING unique
+//late numbering
+//lock dependent( <local_field_name> = <target_field_name> )
+//authorization dependent( <local_field_name> = <target_field_name> )
+//etag <field_name>
+{
+
+  field ( read only ) TravelID, BookingID;
+  field ( mandatory ) BookingDate, CustomerID, AirlineID, ConnectionID, FlightDate;
+  create;
+  update;
+  delete;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Read -Only: E2E:SD for managing flights'
+define service ZSD_CONNECTION_DMO {
+  expose /DMO/I_Connection_R;
+}

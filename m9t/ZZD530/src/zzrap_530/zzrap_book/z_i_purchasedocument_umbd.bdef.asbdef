@@ -1,0 +1,32 @@
+unmanaged implementation in class zbp_i_purchasedocument_umbd unique;
+
+define behavior for Z_I_PurchaseDocument_UMBD alias PurchaseDocument
+//late numbering
+//lock master
+//authorization master
+etag lchg_date_time
+{
+  create;
+  update;
+  delete;
+  association _PurchaseDocumentItem { create; }
+
+  action Approve_Order result [1] $self;
+  action Reject_Order result [1] $self;
+
+  field ( readonly ) crea_uname, lchg_date_time, lchg_uname, PruchaseDocument, crea_date_time;
+}
+
+define behavior for Z_I_PurchaseDocumentItem_UMBD alias PurchaseDocumentItem
+//late numbering
+//lock dependent( <local_field_name> = <target_field_name> )
+//authorization dependent( <local_field_name> = <target_field_name> )
+//etag <field_name>
+{
+  create;
+  update;
+  delete;
+
+  field (readonly ) PurchaseDocumentItem;
+  field( mandatory ) Price, Quantity, QuantityUnit;
+}

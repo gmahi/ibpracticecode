@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_SEARCH_UIBB" ConfId="Z_USMD_SEARCH_DQUERY_ZK" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="SEARCH" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_USMD_SEARCH_GUIBB_DQUERY</FEEDER>
+     <RESULT_NUMBER_OF_VISIBLE_ROWS>10</RESULT_NUMBER_OF_VISIBLE_ROWS>
+     <GROUP_SAME_CRITERIA>X</GROUP_SAME_CRITERIA>
+     <ALLOW_PERSONALIZATION/>
+     <SEARCH_AS_SELECT_OPTION>X</SEARCH_AS_SELECT_OPTION>
+     <Node Name="ATTRIBUTES" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22B4EB0</ELEMENT_ID>
+       <NAME>SITE</NAME>
+       <INDEX>1</INDEX>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22B6EB0</ELEMENT_ID>
+       <NAME>CITY</NAME>
+       <INDEX>2</INDEX>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22B8EB0</ELEMENT_ID>
+       <NAME>COUNTRY</NAME>
+       <INDEX>3</INDEX>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22BAEB0</ELEMENT_ID>
+       <NAME>DESCR</NAME>
+       <INDEX>4</INDEX>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22BCEB0</ELEMENT_ID>
+       <NAME>NAME</NAME>
+       <INDEX>5</INDEX>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22BEEB0</ELEMENT_ID>
+       <NAME>STREET</NAME>
+       <INDEX>6</INDEX>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22C0EB0</ELEMENT_ID>
+       <NAME>USMD_ENT_CHNG_AT</NAME>
+       <INDEX>7</INDEX>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22C2EB0</ELEMENT_ID>
+       <NAME>USMD_ENT_CHNG_BY</NAME>
+       <INDEX>8</INDEX>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22C4EB0</ELEMENT_ID>
+       <NAME>USMD_ENT_CRTD_AT</NAME>
+       <INDEX>9</INDEX>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22C6EB0</ELEMENT_ID>
+       <NAME>USMD_ENT_CRTD_BY</NAME>
+       <INDEX>10</INDEX>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0050568CCD621EDA9FE7A84FC22C8EB0</ELEMENT_ID>
+       <NAME>ZIP</NAME>
+       <INDEX>11</INDEX>
+      </Item>
+     </Node>
+     <Node Name="EXCLUDED_OPERATORS" SimpleFormat="true"/>
+     <Node Name="GLOBAL_SETTINGS" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">USMD_COMPONENT_NAME</NAME>
+       <VALUE>ZSP_ZK</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">USMD_OBJECT_NAME</NAME>
+       <VALUE>DynamicQuerySITE</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">EXECUTION_MODE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME Final="5 ">SELECTION_MODE</NAME>
+       <VALUE>0</VALUE>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME Final="5 ">SEARCH_PROVIDER</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <NAME Final="5 ">SEARCH_HELP</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <NAME Final="5 ">USMD_SEARCH_ALLOW_PERS</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_DEFAULT_VISIBILITY</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_ENTRIES</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <NAME Final="5 ">READ_MODE_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <NAME Final="5 ">EVENT_EXCLUSION_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <NAME Final="5 ">USMD_OTC</NAME>
+       <VALUE/>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="RESULT_GUIBB_LIST" SimpleFormat="true"/>
+     <Node Name="RESULT_TABLE" SimpleFormat="true"/>
+     <Node Name="SEARCH_GROUP" SimpleFormat="true"/>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <LOCATION_SAVED_SEARCHES>P</LOCATION_SAVED_SEARCHES>
+       <EXECUTE_SEARCH_ON_ENTER>X</EXECUTE_SEARCH_ON_ENTER>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

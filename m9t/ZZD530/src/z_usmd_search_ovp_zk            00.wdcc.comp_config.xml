@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="Z_USMD_SEARCH_OVP_ZK" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <HIDDEN_UIBB_PROC_MODE>P</HIDDEN_UIBB_PROC_MODE>
+     <Node Name="ACTION" SimpleFormat="true"/>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <COMPONENT>USMD_GEN_OVP</COMPONENT>
+      </Item>
+     </Node>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">SEARCH</ID>
+       <TITLE Transl="true">2</TITLE>
+       <DEFAULT>X</DEFAULT>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81EE287CFC98D38F45986</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>SEARCH_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_SEARCH_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE/>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <CONFIG_ID>Z_USMD_SEARCH_DQUERY_ZK</CONFIG_ID>
+           <NEEDS_STRETCHING>-</NEEDS_STRETCHING>
+           <TITLE Transl="true">3</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81EE287D5F27F578D9C14</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE/>
+           <CONFIG_ID>Z_USMD_SEARCH_RESULT_ZK</CONFIG_ID>
+           <NEEDS_STRETCHING>-</NEEDS_STRETCHING>
+           <TITLE Transl="true">4</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="PAGE_SELECTOR" SimpleFormat="true"/>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="WIRE_MODEL" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSACTION>CL_MDG_BS_BOL_TRANSACTION</TRANSACTION>
+       <Node Name="WIRE" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED287E8D5E2A01143F4</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>Z_USMD_SEARCH_RESULT_ZK</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_SEARCH_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>Z_USMD_SEARCH_DQUERY_ZK</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>STANDARD</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_CONNECTOR_BOL_IDENTITY</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>
